@@ -1,0 +1,114 @@
+/*
+Colour scheme- analogous #FFDC58, #E8A248, #FF7558, #E848BB, #B77FFF
+last assignment of the year so why not have a little fun with the colours?
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Alegreya+SC');
+@import url('https://fonts.googleapis.com/css?family=Quattrocento+Sans');
+
+/*---------------- 
+MOBILE FIRST STYLE 
+-----------------*/
+
+img{
+    max-width: 100%;
+}
+
+h1{
+    font-family: 'Alegreya SC', serif;
+    font-size: 4rem;
+    text-align: center;
+    background-color: #E8A248;
+    border-radius: 10px;
+    padding-left: 0.25em;
+}
+
+h2{
+    font-family: 'Alegreya SC', serif;
+    text-align: center;
+}
+
+body{
+    background-color: #FF7558;
+    text-align: left;
+    font-family: 'Quattrocento Sans', sans-serif;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+ul{
+    list-style-type: none;
+    text-decoration: none;
+    padding: 1em;
+}
+
+a{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+
+li{
+    display: block;
+    background-color: #FFDC58;
+    padding-left: 5em;
+    padding-right: 5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    text-align: center;
+    margin-top: 1em;
+}
+
+li:hover{
+    background-color: #B77FFF;
+}
+
+.bg-footer{
+    background-color: #E8A248;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 0.05em;
+}
+
+span{
+    padding: 1em;
+    padding-left: 2em;
+    color: #FFDC58;
+}
+
+a:hover{
+   color: #E848BB;
+}
+
+/*---------- 
+TABLET STYLE 
+-----------*/
+@media screen and (min-width: 35rem) and (max-width: 80rem) {
+    
+}
+
+
+
+/*----------- 
+DESKTOP STYLE 
+------------*/
+@media screen and (min-width: 80rem) {
+    
+    .tagline{
+        margin-left: 14em;
+    }
+    
+    h1{
+        text-align: left;
+        margin-right: 15em;
+    }
+    
+    ul{
+        padding: 0;
+    }
+    
+    li{
+        text-align: left;
+        margin-right: 75em;
+    }
+}
